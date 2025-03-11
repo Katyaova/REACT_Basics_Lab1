@@ -47,6 +47,19 @@ div {
 
 .priority{
   font-weight: bold;
+  border-radius: 10px;
+}
+
+.low {
+  background-color: rgb(139, 113, 219);
+}
+
+.medium {
+  background-color: rgb(49, 56, 253);
+}
+
+.high {
+  background-color: rgb(13, 13, 181);
 }
 
 button {
@@ -102,4 +115,19 @@ form {
   text-align: left;
   width: 50%;
   margin: auto;
+}
+
+.priority-low {
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.priority-medium {
+  background-color: lightyellow;
+  border-color: orange;
+}
+
+.priority-high {
+  background-color: lightcoral;
+  border-color: red;
 }
